@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <title>081417101赵晓博</title>
+    <!--标题图片-->
+    <link rel="short icon" href="Resource/icon.png">
+    <link rel="stylesheet" href="ExternalStyle.css">
+    <style>
+        .MD_external_div{
+            position: relative;
+        }
+        .MD_inner_div{
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            height: 76px;
+            width: 66px;
+            margin-top: -60px;
+            margin-left: -33px;
+        }
+        .MD_inner_div button{
+            background: rgb(32, 131, 204);
+            width: 66px;
+            height: 20px;
+            margin-top: 5px;
+        }
+        .MD_third_inner_div{
+            border: 1px solid #dddddd;
+            border-radius: 5px;
+            height: 50px;
+            width: 90%;
+            background: white;
+            margin: 0 auto;
+            line-height: 50px;
+            margin-top: 10px;
+        }
+        .MD_left_img{
+            float: left;
+            margin: 15px 20px 0 10px;
+        }
+        .MD_right_img{
+            float: right;
+            margin-left: 10px;
+            margin-top: 15px;
+        }
+    </style>
+</head>
+<body>
+<!--第一部分-->
+<header>
+    <span>我的小滴</span>
+</header>
+
+<!--第二部分-->
+<div class="MD_external_div">
+    <img style="width: 100%" src="Resource/banner5.png" rel="">
+    <div class="MD_inner_div">
+        <img style="padding-left: 5px;" src="Resource/head.png">
+        <button id="log_out">退出登录</button>
+        <script>
+            var button = document.getElementById("log_out");
+            button.onclick = function (ev) {
+                location.href = "index.html";
+            }
+        </script>
+    </div>
+</div>
+
+<!--第三部分-->
+<div class="MD_third_inner_div">
+    <img class="MD_left_img" src="Resource/gr_1.png" rel="">
+    <span>我的客户</span>
+    <img class="MD_right_img" src="Resource/jt.png" rel="">
+</div>
+
+<div class="MD_third_inner_div">
+    <img class="MD_left_img" src="Resource/gr_2.png" rel="">
+    <span>我的余额</span>
+    <img class="MD_right_img" src="Resource/jt.png" rel="">
+</div>
+
+<div class="MD_third_inner_div">
+    <img class="MD_left_img" src="Resource/gr_3.png" rel="">
+    <span>注册客户</span>
+    <img class="MD_right_img" src="Resource/jt.png" rel="">
+</div>
+
+<div class="MD_third_inner_div">
+    <img class="MD_left_img" src="Resource/gr_4.png" rel="">
+    <span>修改密码</span>
+    <img class="MD_right_img" src="Resource/jt.png" rel="">
+</div>
+
+<!--第四部分-->
+<footer>
+    <a href="DropletService.html"><img src="Resource/nav10.png" alt=""> <span>小滴服务</span></a>
+    <a href="BusinessProject.html"><img src="Resource/nav20.png" alt=""> <span>企业项目</span></a>
+    <a href="ServiceProcess.html"><img src="Resource/nav30.png" alt=""> <span>服务流程</span></a>
+    <a href="Platform.html"><img src="Resource/nav40.png" alt=""> <span>平台风采</span></a>
+    <a href="MyDroplet.html"><img src="Resource/nav51.png" alt=""> <span style="color: red;">我的小滴</span></a>
+</footer>
+</body>
+</html>

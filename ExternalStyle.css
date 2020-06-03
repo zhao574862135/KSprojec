@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: rgb(244,244,246);
+    padding-top: 44px;
+    padding-bottom: 49px;
+}
+
+header{
+    color: white;
+    line-height: 44px;
+    font-size: 18px;
+    background: rgb(40,133,202);
+    text-align: center;
+    width: 100%;
+    left: 0;
+    top: 0;
+    position: fixed;
+    z-index: 9999;
+}
+
+.DS_second_section img{
+    width: 100%;
+}
+
+footer{
+    display: table;
+    width:100%;
+    background: black;
+    height: 49px;
+    left: 0;
+    bottom: 0;
+    position: fixed;
+}
+footer a{
+    display: table-cell;
+    width: 20%;
+    text-decoration: none;
+    text-align: center;
+    vertical-align: middle;
+}
+footer a img{
+    width: 18px;
+}
+footer a span{
+    color: white;
+    display: block;
+    font-size: 12px;
+}
+
